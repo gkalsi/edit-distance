@@ -62,5 +62,5 @@ int EditDistance::editDistanceFast(string s, string t) {
 			}
 		}
 	}
-	return lookup[s.size() - 1][t.size() - 1] + 1;
+	return lookup[s.size() - 1][t.size() - 1];
 }
